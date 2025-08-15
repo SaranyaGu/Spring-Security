@@ -1,4 +1,4 @@
-# Coupon Service - Spring Security Project
+ # Product Service - Spring Security Project
 
 This project demonstrates a Spring Boot application with Spring Security, custom authentication, and Thymeleaf integration.
 
