@@ -66,15 +66,6 @@ public class WebSecurityConfig {
 
         http.logout(logout -> logout.logoutSuccessUrl("/"));
 
-        //The below URLs will be ignored for CSRF checks
-        //  http.csrf(csrfCustomizer -> {
-        //     //csrfCustomizer.ignoringRequestMatchers("/productapi/products/**", HttpMethod.POST);
-        //     RequestMatcher regexMatchers = new RegexRequestMatcher("^/productapi/products/[0-9]*$", "POST");
-        //     csrfCustomizer.ignoringRequestMatchers(regexMatchers);
-        //     csrfCustomizer.ignoringRequestMatchers(new AntPathRequestMatcher("/saveProduct", HttpMethod.POST.name()));
-        //     csrfCustomizer.ignoringRequestMatchers(new AntPathRequestMatcher("/getProduct", HttpMethod.GET.name()));
-        //  });
-
         http.csrf(csrf -> csrf
             .ignoringRequestMatchers(
                 new AntPathRequestMatcher("/getProduct"),
