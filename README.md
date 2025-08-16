@@ -1,4 +1,4 @@
-# Spring Cloud Microservices
+# Spring Security Microservices
 
 This project contains two microservices:
 
