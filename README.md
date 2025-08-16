@@ -30,7 +30,7 @@ Both services are secured with custom authentication and expose REST APIs.
 2. Follow the setup instructions in each service directory.
 3. Use an API client (e.g., Postman) to interact with the endpoints.
 
-AUTH FLOW in Spring security with each components : 
+## AUTH FLOW in Spring security with each components : 
    
    <img width="1064" height="289" alt="image" src="https://github.com/user-attachments/assets/0c63bdef-4c16-4550-9745-424fcbdd05c4" />
 
